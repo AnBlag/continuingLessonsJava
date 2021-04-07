@@ -21,7 +21,7 @@ public class ControllerForParking {
     }
 
     @PostMapping("/add")
-    public void parkTheCar( @RequestBody  Car car) {
+    public void parkTheCar(@RequestBody Car car) {
         parking.addCar(car);
     }
 
